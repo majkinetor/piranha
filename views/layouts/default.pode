@@ -1,0 +1,17 @@
+$($name = $data.url -split '/'| select -last 1)
+
+<html>
+<head>
+    <title>Infraportal $name</title> 
+    <link rel="stylesheet" type="text/css" href="/styles/app.css">
+</head>
+<body>
+    <h2>Infraportal $name</h2>
+    <h3> 
+        $( if ($data.url) { '<a href="/">Home</a>' } )
+    </h3>
+    <content>
+       $( Use-PodePartialView  -Path $data.view -Data $data)
+    </content>
+</body>
+</html>

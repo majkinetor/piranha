@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" type="text/css" href="/styles/app.css">
+    </head>
+    <body>
+        Logged in as: <code>$($data.Username)</code>
+        <form action="/logout" method="post">
+            <div>
+                <input type="submit" value="Logout"/>
+            </div>
+        </form>
+    </body>
+</html>

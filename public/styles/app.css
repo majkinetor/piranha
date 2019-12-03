@@ -1,0 +1,113 @@
+body {
+    margin: 2em;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    background: dimgray;
+    color: white;
+}
+
+header a {
+    color: rgb(175, 160, 160);
+}
+
+header {
+    border-bottom: 2px gray solid;
+    padding: .2em;
+    color: rgb(214, 208, 208);
+}
+
+label {
+    display: block;
+    margin-bottom: .3rem;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+input[type=email],
+input[type=text] {
+    width: 250px;
+}
+
+input[type=submit] {
+    margin-top: 1em;
+    border-radius: 5px;
+    font-family: Tahoma;
+    background: #f4f4f4;
+    font-size: 1em;
+}
+
+h3 {
+    font: 300 25px Helvetica, Verdana, sans-serif;
+}
+
+h4 {
+    font: 300 15px Helvetica, Verdana, sans-serif;
+}
+
+h2 {
+    font: 400 40px Helvetica, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    padding: 0.2em;
+}
+
+li:last-child {
+    border: none;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(172, 161, 161);
+}
+
+li a:hover {
+    font-weight: 700;
+    background: #9c1616;
+}
+
+.menu ul {
+    margin-top: 1em;
+    margin-left: 3em;
+}
+
+small {
+    display: block;
+    margin-top: 10em;
+    font-style: italic;
+    color: rgb(189, 184, 184)
+}
+
+.parameter {
+    padding: .2em;
+}
+
+span {
+    width: 150px;
+    display: inline-block;
+}
+
+input[type=submit] {
+    margin: 0;
+    margin-top: 3em;
+    width: 100px;
+}
+
+input[type=checkbox] {
+    width: auto;
+}
+
+select,
+input {
+    margin-left: 1em;
+    width: 300px;
+}
